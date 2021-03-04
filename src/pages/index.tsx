@@ -19,7 +19,7 @@ export default function Index(props: Props): ReactElement {
   return (
     <languagesContext.Provider value={context}>
       <Head>
-        <title>ebina4yaka | Dashboard</title>
+        <title>ebina4yaka | Profile</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Profile />
