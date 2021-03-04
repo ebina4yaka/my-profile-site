@@ -1,8 +1,8 @@
 {
-  "name": "template",
+  "name": "my-profile-site",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "BEER-WARE",
   "dependencies": {
     "next": "10.0.7",
     "react": "17.0.1",
