@@ -1,12 +1,12 @@
 import renderer from 'react-test-renderer'
-import Dashboard from '../Dashboard'
+import Profile from '../Profile'
 
 jest.mock('../../organisms/Navbar', () => 'MockNavbar')
 jest.mock('../../organisms/Hero', () => 'MockHero')
 jest.mock('../../organisms/LanguagesChart', () => 'MockLanguagesChart')
 jest.mock('../../atoms/Copyright', () => 'MockCopyright')
 
-it('Snapshot test for Dashboard', () => {
-  const tree = renderer.create(<Dashboard />).toJSON()
+it('Snapshot test for Profile', () => {
+  const tree = renderer.create(<Profile />).toJSON()
   expect(tree).toMatchSnapshot()
 })
