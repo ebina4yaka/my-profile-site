@@ -1,6 +1,6 @@
 import { ReactElement } from 'react'
 import Head from 'next/head'
-import Dashboard from '../templates/Dashboard'
+import Profile from '../templates/Profile'
 
 export default function Team(): ReactElement {
   return (
@@ -9,7 +9,7 @@ export default function Team(): ReactElement {
         <title>App | Team</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Dashboard />
+      <Profile />
     </>
   )
 }

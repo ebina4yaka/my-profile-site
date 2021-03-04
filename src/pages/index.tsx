@@ -1,7 +1,7 @@
 import { ReactElement, useEffect } from 'react'
 import Head from 'next/head'
 import HttpsProxyAgent from 'https-proxy-agent/dist/agent'
-import Dashboard from '../templates/Dashboard'
+import Profile from '../templates/Profile'
 import { Language } from '../lib/models'
 import useLanguages, { languagesContext } from '../context/useLanguages'
 
@@ -22,7 +22,7 @@ export default function Index(props: Props): ReactElement {
         <title>ebina4yaka | Dashboard</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Dashboard />
+      <Profile />
     </languagesContext.Provider>
   )
 }
