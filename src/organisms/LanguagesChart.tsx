@@ -6,8 +6,8 @@ export default function LanguagesChart(): ReactElement {
   const { languages } = useContext(languagesContext)
   return (
     <div className="lg:container mx-auto">
-      <div className="sm:box-content pb-4 pt-4">
-        <div className="font-sans text-3xl text-center mb-2">
+      <div className="sm:box-content py-6">
+        <div className="font-sans font-bold text-3xl text-center mb-2">
           Languages Chart
         </div>
         <div className="flex flex-row flex-wrap justify-center items-center content-center pr-4 pl-4">

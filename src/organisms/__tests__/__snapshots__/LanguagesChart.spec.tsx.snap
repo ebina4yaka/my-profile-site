@@ -5,10 +5,10 @@ exports[`Snapshot test for LanguagesChart 1`] = `
   className="lg:container mx-auto"
 >
   <div
-    className="sm:box-content pb-4 pt-4"
+    className="sm:box-content py-6"
   >
     <div
-      className="font-sans text-3xl text-center mb-2"
+      className="font-sans font-bold text-3xl text-center mb-2"
     >
       Languages Chart
     </div>
