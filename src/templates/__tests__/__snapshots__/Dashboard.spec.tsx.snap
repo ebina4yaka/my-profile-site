@@ -19,6 +19,7 @@ Array [
         </div>
       </div>
     </div>
+    <MockLanguagesChart />
   </main>,
   <footer
     className="text-center"

@@ -1,6 +1,7 @@
 import { ReactElement } from 'react'
 import Copyright from '../atoms/Copyright'
 import Navbar from '../organisms/Navbar'
+import LanguagesChart from '../organisms/LanguagesChart'
 
 export default function Dashboard(): ReactElement {
   return (
@@ -16,6 +17,7 @@ export default function Dashboard(): ReactElement {
             </div>
           </div>
         </div>
+        <LanguagesChart />
       </main>
       <footer className="text-center">
         <Copyright />
