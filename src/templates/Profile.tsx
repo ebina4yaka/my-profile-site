@@ -4,7 +4,7 @@ import Navbar from '../organisms/Navbar'
 import LanguagesChart from '../organisms/LanguagesChart'
 import Hero from '../organisms/Hero'
 
-export default function Dashboard(): ReactElement {
+export default function Profile(): ReactElement {
   return (
     <>
       <header>
