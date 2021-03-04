@@ -6,7 +6,7 @@ export default function Index(): ReactElement {
   return (
     <>
       <Head>
-        <title>App | Dashboard</title>
+        <title>ebina4yaka | Dashboard</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Dashboard />
