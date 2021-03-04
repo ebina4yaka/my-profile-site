@@ -27,16 +27,6 @@ export default function Index(props: Props): ReactElement {
   )
 }
 
-export async function getStaticPaths(): Promise<{
-  paths: []
-  fallback: boolean | string
-}> {
-  return {
-    paths: [],
-    fallback: 'blocking',
-  }
-}
-
 export async function getStaticProps(): Promise<{
   revalidate: number
   props: Props
