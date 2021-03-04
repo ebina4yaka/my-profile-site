@@ -12,6 +12,7 @@ export default function Hero(): ReactElement {
             className="rounded-full"
             src="/icon.jpg"
             alt="Icon"
+            priority
             loading="eager"
             width={200}
             height={200}
