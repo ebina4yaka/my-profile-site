@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test for LanguagesChart 1`] = `
+<div
+  className="lg:container mx-auto"
+>
+  <div
+    className="sm:box-content py-6"
+  >
+    <div
+      className="font-sans font-bold text-3xl text-center mb-2"
+    >
+      Languages Chart
+    </div>
+    <div
+      className="flex flex-row flex-wrap justify-center items-center content-center pr-4 pl-4"
+    >
+      <div
+        className="recharts-wrapper"
+        style={
+          Object {
+            "cursor": "default",
+            "height": 180,
+            "position": "relative",
+            "width": 180,
+          }
+        }
+      >
+        <svg
+          className="recharts-surface"
+          cx="50%"
+          cy="50%"
+          height={180}
+          id="userLanguages"
+          version="1.1"
+          viewBox="0 0 180 180"
+          width={180}
+        >
+          <defs>
+            <clipPath
+              id="userLanguages-clip"
+            >
+              <rect
+                height={170}
+                width={170}
+                x={5}
+                y={5}
+              />
+            </clipPath>
+          </defs>
+          <g
+            className="recharts-layer recharts-pie"
+          >
+            <g
+              className="recharts-layer"
+            >
+              <g
+                className="recharts-layer recharts-pie-sector"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+              />
+              <g
+                className="recharts-layer recharts-pie-sector"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+              />
+              <g
+                className="recharts-layer recharts-pie-sector"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+              />
+              <g
+                className="recharts-layer recharts-pie-sector"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+              />
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div
+        className="flex flex-col flex-wrap justify-center content-center"
+      >
+        <div
+          className="flex flex-row justify-start items-center"
+        >
+          <span
+            className="h-3 w-3 rounded-full inline-block mr-1 mt-0.5"
+            style={
+              Object {
+                "backgroundColor": "#dea584",
+              }
+            }
+          />
+          <span
+            className="text-base font-mono"
+          >
+            Rust 25%
+          </span>
+        </div>
+        <div
+          className="flex flex-row justify-start items-center"
+        >
+          <span
+            className="h-3 w-3 rounded-full inline-block mr-1 mt-0.5"
+            style={
+              Object {
+                "backgroundColor": "#00ADD8",
+              }
+            }
+          />
+          <span
+            className="text-base font-mono"
+          >
+            Go 25%
+          </span>
+        </div>
+        <div
+          className="flex flex-row justify-start items-center"
+        >
+          <span
+            className="h-3 w-3 rounded-full inline-block mr-1 mt-0.5"
+            style={
+              Object {
+                "backgroundColor": "#00B4AB",
+              }
+            }
+          />
+          <span
+            className="text-base font-mono"
+          >
+            Dart 25%
+          </span>
+        </div>
+        <div
+          className="flex flex-row justify-start items-center"
+        >
+          <span
+            className="h-3 w-3 rounded-full inline-block mr-1 mt-0.5"
+            style={
+              Object {
+                "backgroundColor": "#3572A5",
+              }
+            }
+          />
+          <span
+            className="text-base font-mono"
+          >
+            Python 25%
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

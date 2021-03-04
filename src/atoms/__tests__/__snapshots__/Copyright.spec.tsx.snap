@@ -2,7 +2,7 @@
 
 exports[`Snapshot test for Copyright 1`] = `
 <div
-  className="font-sans text-base"
+  className="font-sans text-base pt-4"
 >
   Copyright © 
   <a
