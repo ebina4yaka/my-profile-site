@@ -6,19 +6,7 @@ Array [
     <MockNavbar />
   </header>,
   <main>
-    <div
-      className="lg:container mx-auto"
-    >
-      <div
-        className="md:box-content"
-      >
-        <div
-          className="font-sans text-4xl text-center m-10"
-        >
-          This is Title
-        </div>
-      </div>
-    </div>
+    <MockHero />
     <MockLanguagesChart />
   </main>,
   <footer
