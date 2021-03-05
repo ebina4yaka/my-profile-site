@@ -6,8 +6,16 @@ Array [
     <MockNavbar />
   </header>,
   <main>
-    <MockHero />
-    <MockLanguagesChart />
+    <div
+      className="mt-4"
+    >
+      <MockHero />
+    </div>
+    <div
+      className="mt-8"
+    >
+      <MockLanguagesChart />
+    </div>
   </main>,
   <footer
     className="text-center"

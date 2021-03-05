@@ -7,7 +7,7 @@
 }
 
 .navbar {
-    @apply bg-white dark:bg-gray-800
+    @apply bg-white dark:bg-gray-700 shadow rounded-b-2xl
 }
 
 .navbar-size {
@@ -32,6 +32,10 @@
 
 .navbar-no-selected {
     @apply text-black hover:text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium dark:text-white cursor-pointer
+}
+
+.container {
+    @apply md:container mx-auto bg-gradient-to-r from-pink-100 via-purple-100 to-indigo-100 dark:from-pink-900 dark:via-purple-900 dark:to-indigo-900 rounded-lg shadow
 }
 
 .toggle-checkbox {
