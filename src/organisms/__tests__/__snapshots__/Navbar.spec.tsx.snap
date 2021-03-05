@@ -125,7 +125,7 @@ exports[`Snapshot test for Navbar 1`] = `
         onClick={[Function]}
         onMouseEnter={[Function]}
       >
-        Dashboard
+        Profile
       </div>
       <div
         className="navbar-no-selected block"
