@@ -1,0 +1,4 @@
+/* For Storybook */
+.dark {
+    @apply text-gray-50 bg-gray-800;
+}
