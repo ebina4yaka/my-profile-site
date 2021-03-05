@@ -2,7 +2,7 @@ import { ReactElement } from 'react'
 
 export default function Copyright(): ReactElement {
   return (
-    <div className="font-sans text-base pt-4">
+    <div className="font-sans text-base py-4">
       {'Copyright © '}
       <a
         href="https://github.com/ebina4yaka"
