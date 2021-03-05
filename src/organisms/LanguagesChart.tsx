@@ -5,12 +5,12 @@ import { languagesContext } from '../context/useLanguages'
 export default function LanguagesChart(): ReactElement {
   const { languages } = useContext(languagesContext)
   return (
-    <div className="lg:container mx-auto">
-      <div className="sm:box-content py-6">
-        <div className="font-sans font-bold text-3xl text-center mb-2">
+    <div className="container">
+      <div className="sm:box-content py-12">
+        <div className="font-sans font-bold text-3xl text-center pb-2">
           Languages Chart
         </div>
-        <div className="flex flex-row flex-wrap justify-center items-center content-center pr-4 pl-4">
+        <div className="flex flex-row flex-wrap justify-center items-center content-center">
           <PieChart id="userLanguages" width={180} height={180}>
             <Pie
               data={languages}
