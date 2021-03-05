@@ -124,7 +124,7 @@ export default function Navbar(): ReactElement {
                   : 'navbar-no-selected block'
               }
             >
-              Dashboard
+              Profile
             </div>
           </Link>
           <Link href="/team">
