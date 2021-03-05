@@ -1,4 +1,5 @@
 import '../src/styles/globals.css'
+import '../src/styles/storybook.css'
 import * as nextRouter from 'next/router'
 
 require('@storybook/react').addParameters({
