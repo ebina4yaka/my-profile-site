@@ -2,18 +2,18 @@
 
 exports[`Snapshot test for LanguagesChart 1`] = `
 <div
-  className="lg:container mx-auto"
+  className="container"
 >
   <div
-    className="sm:box-content py-6"
+    className="sm:box-content py-12"
   >
     <div
-      className="font-sans font-bold text-3xl text-center mb-2"
+      className="font-sans font-bold text-3xl text-center pb-2"
     >
       Languages Chart
     </div>
     <div
-      className="flex flex-row flex-wrap justify-center items-center content-center pr-4 pl-4"
+      className="flex flex-row flex-wrap justify-center items-center content-center"
     >
       <div
         className="recharts-wrapper"

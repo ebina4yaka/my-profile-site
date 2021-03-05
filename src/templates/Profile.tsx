@@ -11,8 +11,12 @@ export default function Profile(): ReactElement {
         <Navbar />
       </header>
       <main>
-        <Hero />
-        <LanguagesChart />
+        <div className="mt-4">
+          <Hero />
+        </div>
+        <div className="mt-8">
+          <LanguagesChart />
+        </div>
       </main>
       <footer className="text-center">
         <Copyright />
