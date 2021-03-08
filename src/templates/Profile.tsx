@@ -11,10 +11,8 @@ export default function Profile(): ReactElement {
         <Navbar />
       </header>
       <main>
-        <div className="mt-4">
+        <div className="my-6 grid grid-cols-1 gap-6">
           <Hero />
-        </div>
-        <div className="mt-8">
           <LanguagesChart />
         </div>
       </main>
